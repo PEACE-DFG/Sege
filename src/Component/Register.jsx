@@ -24,7 +24,8 @@ function Register() {
         } 
         if(user.Password.trim()===""){
             newErrors.PasswordErr="Your Password is Required"
-        }  if(user.RepeatPassword.trim()===""){
+        } 
+         if(user.RepeatPassword.trim()===""){
             newErrors.RepeatPasswordErr="Your Password is Required"
         }
         else if(user.Password.trim()!== user.RepeatPassword.trim()){
